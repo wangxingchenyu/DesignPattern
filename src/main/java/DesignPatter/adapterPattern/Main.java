@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
+        // 执行适配处理
         // OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream(new File("d:/person.data")));
 
     }
