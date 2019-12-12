@@ -1,0 +1,11 @@
+ReentrantLock[可重入锁]
+
+实例方法:
+    lock() 获得锁
+    unlock 释放锁
+    tryLock 试着获得锁
+    isLocked 是否被锁住
+
+wait/Notify  生产者，消费者模型
+
+
