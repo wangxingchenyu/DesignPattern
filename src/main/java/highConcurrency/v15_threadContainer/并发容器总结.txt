@@ -1,0 +1,31 @@
+Map/Set:
+    无并发:
+        HashMap
+        TreeMap
+        LinkedHashMap
+    低并发:
+        HashTable
+        Collections.synchronizedMap()
+    高并发:
+        ConcurrentHashMap - 并发高
+        ConcurrentSkipListMap - 并发高 且 需要排序
+
+队列:
+    无并发:
+        ArrayList
+        LinkedList
+    低并发:
+        Vector
+        Collections.synchronizedList()
+    写少读多:
+        CopyOnWriteList
+    高并发
+        Queue：
+            ConcurrentLinkedQueue 非阻塞同步队列
+            BlockQueue
+                LinkedBlockingQueue 无界队列
+                ArrayBlockingQueue  有界队列
+                TransferQueue       传输队列（有容量）
+                SynchronousQueue    特殊的传输队列（容量为0）
+            DelayQueue      定时队列
+
