@@ -32,7 +32,7 @@ public class T02_CopyOnWriteList {
 
         Arrays.asList(ths).forEach(t -> {
             try {
-                t.join(); // 让线程串连起来运行
+                t.join(); // 主线程等待所有的线程执行结束
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

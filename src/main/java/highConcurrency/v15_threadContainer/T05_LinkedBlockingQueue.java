@@ -14,7 +14,7 @@ public class T05_LinkedBlockingQueue {
 
         BlockingQueue<String> queue = new LinkedBlockingQueue<>();
 
-        // 启动生产者线程生产
+        // 启动生产者线程生产 (一个线程在生产，5个线程在消费)
         new Thread(() -> {
             for (int j = 0; j < 1000; j++) {
                 try {

@@ -29,3 +29,7 @@ Map/Set:
                 SynchronousQueue    特殊的传输队列（容量为0）
             DelayQueue      定时队列
 
+Promise用法
+async / await
+Dart 语言:
+Erlang   futureTask[包装了Callable]

@@ -33,5 +33,6 @@
       <option name="myAdditionalJavadocTags" value="date" />
     </inspection_tool>
     <inspection_tool class="JdNeedBrace" enabled="false" level="BLOCKER " enabled_by_default="false" />
+    <inspection_tool class="JdThreadPoolCreation" enabled="false" level="BLOCKER " enabled_by_default="false" />
   </profile>
 </component>
